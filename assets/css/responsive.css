@@ -1,0 +1,74 @@
+/* pc:1024px */
+@media (min-width: 64em){
+    .mobile-menu-btn{
+        display: none;
+    }
+}
+/* mobile and tablet:1023px */
+@media (max-width:63.9375em){
+    .btn{
+     padding: 15px 16px;
+    }
+    #footer .copy-right{
+        font-size: 24px;
+    }
+    .form-control{
+        padding:15px;
+    }
+    .socical-list{
+        font-size:28px;
+    }
+    #footer .socical-list a{
+        margin:0 8px;
+    }
+}
+/* tablet 1023px */
+@media (min-width:46.25em) and (max-width:63.9375em){
+    .mobile-menu-btn{
+        display: none;
+    }
+    
+}
+/* mobile 739px */
+@media (max-width: 46.1875em){
+    .s-full-width,
+    .s-col-full{
+        width:100% !important;
+    }
+    .s-mt-8{
+        margin-top:8px !important;
+    }
+    .search-btn{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav {
+        display:block;
+    }
+    #header #nav >li{
+        display: block;
+    }
+    #header #nav >li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav{
+        position:initial;
+        background-color:#333;
+    }
+    #nav .subnav a{
+        color:#fff;
+        padding: 3px 39px;
+    }
+    
+    #content .member-img{
+        width:60%;
+    }
+
+    .contact-form{
+        margin-top:16px;
+            
+        
+    }
+}
