@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+
+}
+:root{
+    --text-color:#666;
+    --text-black:#000;
+    --white-color:#fff;
+    --primary-color:#27cce0;
+    --header-height:78px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(70deg,var(--primary-color), rgb(247, 47, 170));
+}
+@media (min-width: 1061px){
+    ::-webkit-scrollbar{
+        width: 12px;
+        height: 0;
+    }
+}
+
+@keyframes faceIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes zoom {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform:scale(1) ;
+    }
+}
+@keyframes appear{
+  
+    0%{
+        transform: translateY(-10%);
+        opacity: 0;
+        transform: scaleY(0.5);
+    }
+    100%{
+        
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes text-slide{
+   
+    0% {
+        opacity: 0;
+       transform: translateX(-50%);
+    90% {
+        opacity: 1;
+        transform: translateX(0);
+     
+    }100%{
+        opacity: 0;
+    }
+    
+}
+@keyframes zoom-img{
+    0%{
+        transform: scale(100%);
+    }
+    50%{
+        transform: scale(101%);
+    }
+}
+@keyframes zoom-background{
+   from{
+    
+       transform:scale(100%);
+   }
+   to{
+       
+       transform:scale(102%);
+
+   }
+}
+   ::-webkit-scrollbar{
+    width: 10px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(70deg,var(--primary-color), rgb(247, 47, 170));
+}
+@media (min-width: 1061px){
+    ::-webkit-scrollbar{
+        width: 12px;
+        height: 0;
+    }
+}
+
+
